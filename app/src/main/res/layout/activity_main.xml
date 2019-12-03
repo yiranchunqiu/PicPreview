@@ -2,7 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
+
+    <com.pxz.pxztitlebar.TitleBarView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:isLeft="false"
+        app:isRight="false"
+        app:titleBarText="图片预览" />
 
     <TextView
         android:id="@+id/tv_pic_preview"
