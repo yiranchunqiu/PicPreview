@@ -49,4 +49,5 @@ dependencies {
     debugImplementation   'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
     //图片预览
     implementation project(':pxzpreviewpic')
+//    implementation 'com.github.yiranchunqiu:PicPreview:1.0'
 }
